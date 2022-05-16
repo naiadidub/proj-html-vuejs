@@ -2,10 +2,12 @@
     <div>
         <h6>{{titolo}}</h6>
         <div>
-            <i v-for="(n, index) in votoInt" :key="index" class="fa-solid fa-star"></i>
+            <span v-for="(n, index) in votoInt" :key="index">
+                <i  class="fa-solid fa-star"></i>
+            </span>
         </div>
         <h5>${{prezzo}}</h5>   
-        <img :src="require(`${src}`)" alt="">     
+          <img :src="require(`../assets/${src}`)" alt="">   
     </div>
 </template>
 

@@ -20,7 +20,11 @@ export default {
   },
   computed:{
     myArray(){
-      return shopArray.products
+      return  shopArray
+      
+    },
+    created(){
+      return console.log(this.myArray)
     }
   }
 }
