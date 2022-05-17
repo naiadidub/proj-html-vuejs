@@ -1,10 +1,15 @@
 <template>
     <div>
-        <div class="col-4">
+        <div class="col">
+            <h6 class="mb-5">FEATURED</h6>
             <ProductCard v-for="(card, index) in myArray" :key="index"
             :titolo="card.title"
             :prezzo="card.price"
             :src="card.path"
+            :vote="card.vote"
+            :prezzoScontato="card.salePrice"
+            :reviu="card.review"
+            :sale="card.inSconto"
             />
         </div>
     </div>
@@ -15,12 +20,17 @@ import ProductCard from './ProductCard.vue'
 import shopArray from '../MainArray'
 export default {
   name: 'FeaturedProducts',
+  data(){
+    return {
+       
+    }
+  },
   components: {
     ProductCard,
   },
   computed:{
     myArray(){
-      return  shopArray
+      return shopArray.slice(0, 3)
       
     },
     created(){
