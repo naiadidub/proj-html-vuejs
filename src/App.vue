@@ -1,18 +1,24 @@
 <template>
   <div>
     <FooterOne/>
-    <FooterTwo/>
+    <BrandsContent/>
+    <SubsctibeSection/>
+    <LinksSection/>
   </div>
 </template>
 
 <script>
 import FooterOne from './components/FooterOne.vue'
-import FooterTwo from './components/FooterTwo.vue'
+import BrandsContent from './components/BrandsContent.vue'
+import SubsctibeSection from './components/SubscribeSection.vue'
+import LinksSection from './components/LinksSection.vue'
 export default {
   name: 'App',
   components: {
     FooterOne,
-    FooterTwo
+    BrandsContent,
+    SubsctibeSection,
+    LinksSection
   },
   computed:{
     
