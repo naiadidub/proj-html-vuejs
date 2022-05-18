@@ -2,6 +2,7 @@
   <div>
     <HeaderContent/>
     <JumbotronContent/>
+    <MainContent/>
     <FooterOne/>
     <BrandsContent/>
     <SubsctibeSection/>
@@ -16,6 +17,7 @@ import FooterOne from './components/FooterOne.vue'
 import BrandsContent from './components/BrandsContent.vue'
 import SubsctibeSection from './components/SubscribeSection.vue'
 import LinksSection from './components/LinksSection.vue'
+import MainContent from './components/MainContent.vue'
 export default {
   name: 'App',
   components: {
@@ -25,6 +27,7 @@ export default {
     BrandsContent,
     SubsctibeSection,
     LinksSection,
+    MainContent
 },
   computed:{
     
