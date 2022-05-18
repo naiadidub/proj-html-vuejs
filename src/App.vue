@@ -1,5 +1,6 @@
 <template>
   <div>
+    <HeaderContent/>
     <FooterOne/>
     <BrandsContent/>
     <SubsctibeSection/>
@@ -8,6 +9,7 @@
 </template>
 
 <script>
+import HeaderContent from './components/HeaderContent.vue'
 import FooterOne from './components/FooterOne.vue'
 import BrandsContent from './components/BrandsContent.vue'
 import SubsctibeSection from './components/SubscribeSection.vue'
@@ -15,6 +17,7 @@ import LinksSection from './components/LinksSection.vue'
 export default {
   name: 'App',
   components: {
+    HeaderContent,
     FooterOne,
     BrandsContent,
     SubsctibeSection,

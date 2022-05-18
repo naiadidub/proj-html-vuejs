@@ -46,7 +46,7 @@ export default {
 
 <style lang="scss" scoped>
 .card-img{
-    width:90px;
+    width:62px;
     height: 100px;
 }
 .line{
