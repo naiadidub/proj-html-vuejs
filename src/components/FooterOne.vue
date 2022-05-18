@@ -1,6 +1,6 @@
 <template>
     <div class="container my-5">
-        <div class="row">
+        <div class="row justify-content-between">
             <FeaturedProducts/>
             <OnSaleProducts/>
             <TopRatedProducts/>
