@@ -102,6 +102,16 @@
                 
             </div>      
         </div>
+        <div class=" container ">
+            <div class="d-flex  justify-content-center mt-5">
+                <div></div>
+                <h1>Best seller</h1>
+                <div></div>
+            </div>
+            <div class="d-flex  justify-content-center">
+                <p class="text-secondary">MUST HAVE PRODUCTS FROM OUR BEST SELLERS</p>
+            </div>
+        </div>
     </div>
 </template>
 

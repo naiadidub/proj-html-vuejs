@@ -3,6 +3,8 @@
     <HeaderContent/>
     <JumbotronContent/>
     <MainContent/>
+    <PromoBox/>
+    <BigCarousel2/>
     <FooterOne/>
     <BrandsContent/>
     <SubsctibeSection/>
@@ -18,6 +20,8 @@ import BrandsContent from './components/BrandsContent.vue'
 import SubsctibeSection from './components/SubscribeSection.vue'
 import LinksSection from './components/LinksSection.vue'
 import MainContent from './components/MainContent.vue'
+import PromoBox from './components/PromoBox.vue'
+import BigCarousel2 from './components/BigCarousel2.vue'
 export default {
   name: 'App',
   components: {
@@ -27,7 +31,9 @@ export default {
     BrandsContent,
     SubsctibeSection,
     LinksSection,
-    MainContent
+    MainContent,
+    PromoBox,
+    BigCarousel2
 },
   computed:{
     
