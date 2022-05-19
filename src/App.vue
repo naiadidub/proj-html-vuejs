@@ -5,6 +5,8 @@
     <MainContent/>
     <PromoBox/>
     <BigCarousel2/>
+    <CommentContent/>
+    <PostsContent/>
     <FooterOne/>
     <BrandsContent/>
     <SubsctibeSection/>
@@ -22,6 +24,8 @@ import LinksSection from './components/LinksSection.vue'
 import MainContent from './components/MainContent.vue'
 import PromoBox from './components/PromoBox.vue'
 import BigCarousel2 from './components/BigCarousel2.vue'
+import CommentContent from './components/CommentContent.vue'
+import PostsContent from './components/PostsContent.vue'
 export default {
   name: 'App',
   components: {
@@ -33,7 +37,9 @@ export default {
     LinksSection,
     MainContent,
     PromoBox,
-    BigCarousel2
+    BigCarousel2,
+    CommentContent,
+    PostsContent
 },
   computed:{
     

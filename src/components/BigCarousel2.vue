@@ -10,7 +10,7 @@
                 <p class="text-secondary">BREND NEW PRODUCT FROM BEST DESIGNERS</p>
             </div>
         </div>
-        <div>
+        <div style="width: 100vw; max-width: 1800px; margin: 0 auto;">
         <VueSlickCarousel v-bind="settings">
             <div><img src="../assets/imgs400x520/black_elegant_leather_jacket-400x520.jpg" alt=""></div>
             <div><img src="../assets/imgs400x520/black_leather_jacket-400x520.jpg" alt=""></div>
@@ -44,7 +44,7 @@ export default {
             "focusOnSelect": true,
             "infinite": true,
             "speed": 500,
-            "slidesToShow": 5,
+            "slidesToShow": 4,
             "slidesToScroll": 1,
             "touchThreshold": 2
         }       
